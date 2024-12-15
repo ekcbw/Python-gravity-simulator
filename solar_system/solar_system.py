@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-使用turtle模块的太阳系模拟程序
+使用tkinter以及turtle模块的太阳系模拟程序。
 
 快捷键:
 按Ctrl+“+”或Ctrl+“-”进行缩放。
@@ -27,7 +27,7 @@ try:
 except ImportError:
     from Tkinter import TclError # Python 2
 
-__author__="七分诚意"
+__author__="ekcbw"
 __email__="u81430728@163.com"
 __version__="1.3.3"
 
